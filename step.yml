@@ -171,7 +171,7 @@ inputs:
   - skip_newline_between_issue_types: "false"
     opts:
       category: Formatting
-      title: Skip Output new lines betwwen Issue Types
+      title: Skip Output new lines between Issue Types
       description: Skip new-line break between Issue types in Output.
       is_expand: true
       is_required: true
