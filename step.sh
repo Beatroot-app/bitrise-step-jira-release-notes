@@ -9,7 +9,7 @@ echo "Executing jira-release-notes"
 THIS_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 COMMAND=$(cat << EOF
-python3 $THIS_SCRIPT_DIR/jira-release.py \
+python3 $THIS_SCRIPT_DIR/jira-release-notes.py \
     -v ${version_name} \
     -p ${projectId} \
     -u ${user} \

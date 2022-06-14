@@ -13,9 +13,9 @@ summary: |
   Jira Releases Notes easily!
 description: |
   Create or Update Jira releases easily from Bitrise
-website: https://github.com/Beatroot-app/bitrise-step-jira-release
-source_code_url: https://github.com/Beatroot-app/bitrise-step-jira-release
-support_url: https://github.com/Beatroot-app/bitrise-step-jira-release/issues
+website: https://github.com/Beatroot-app/bitrise-step-jira-release-notes
+source_code_url: https://github.com/Beatroot-app/bitrise-step-jira-release-notes
+support_url: https://github.com/Beatroot-app/bitrise-step-jira-release-notes/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
