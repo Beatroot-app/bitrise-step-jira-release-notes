@@ -116,7 +116,7 @@ def getVersion():
 
 def getVersionIssues():
     # JQL for filtering version issues
-    query = ('project = %(project)s AND fixVersion = "%(version)s" AND resolution IS NOT EMPTY ORDER BY key' %{'project': args.project, 'version': versionName})
+    query = ('project = %(project)s AND fixVersion = "%(version)s" ORDER BY key' %{'project': args.project, 'version': versionName})
 
     params = {
         'projectId': args.project,
